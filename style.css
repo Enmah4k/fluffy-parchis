@@ -2,14 +2,13 @@
 .table{
     width: 90vmin;
     height: 90vmin;
-    background: #000000;
+    background: #ffffff;
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 5vmin auto;
 }
 
 .main-space{
-    background: rgb(255, 255, 255);
     width: auto;
     height: auto;
     display: grid;
@@ -18,22 +17,27 @@
 
 .top{
     transform: rotate(0deg);
+    height: 114%;
 }
 
 .right{
-    transform: rotate(90deg);
+    transform: translate(-7.1%, -6%) rotate(90deg);
+    height: 114%;
 }
 
 .left{
-    transform: rotate(calc(90deg * 3));
+    transform: translate(7.1%, -6%) rotate(calc(90deg * 3));
+    height: 114%;
 }
 
 .bottom{
-    transform: rotate(180deg);
+    height: 114%;
+    transform: translateY(-12.3%) rotate(180deg);
 }
 
 .main{
     background: rebeccapurple !important;
+    border: rgb(255, 255, 255) solid .3vmin;
 }
 
 .red{
@@ -55,7 +59,7 @@
 .space{
     width: auto;
     height: auto;
-    border: white solid 0.1vmin;
+    border: rgb(255, 255, 255) solid .3vmin;
 }
 
 .x{
@@ -67,5 +71,16 @@
 }
 
 .point{
-    background: rgb(109, 109, 109) !important;
+    background: rgb(156, 156, 156) !important;
+}
+
+.into{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.div-into{
+    background: rgb(49, 78, 6);
+    display: grid;
+    grid-template-columns: auto auto;
 }
