@@ -43,16 +43,16 @@
 
 
 .space{
-    background: rgb(247, 169, 236);
     width: auto;
     height: auto;
-    border: black solid 1px;
 }
 
-.space .x{
-    background: rgb(255, 255, 255) !important;
+.x{
+    background: rgb(243, 243, 243) !important;
 }
 
-.space .y{
-    background: rgb(212, 212, 212) !important;
+.y{
+    background: rgb(231, 231, 231) !important;
 }
+
+.point
