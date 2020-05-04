@@ -81,9 +81,3 @@
     width: 72%;
     transform: translate(18%, 18%);
 }
-
-.div-into{
-    background: rgb(49, 78, 6);
-    display: grid;
-    grid-template-columns: auto auto;
-}
