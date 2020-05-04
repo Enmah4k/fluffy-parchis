@@ -3,4 +3,16 @@
     height: 90vmin;
     background: #000000;
     border-radius: 4vmin;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5vmin auto;
+}
+.main{
+    background: rebeccapurple !important;
+}
+
+.main-space{
+    background: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
 }
