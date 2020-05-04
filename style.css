@@ -32,19 +32,30 @@
     transform: rotate(180deg);
 }
 
-.red{
-    background: red !important;
-}
-
 .main{
     background: rebeccapurple !important;
 }
 
+.red{
+    background: red !important;
+}
 
+.blu{
+    background: royalblue !important;
+}
+
+.yel{
+    background: gold !important;
+}
+
+.gre{
+    background: green !important;
+}
 
 .space{
     width: auto;
     height: auto;
+    border: white solid 0.1vmin;
 }
 
 .x{
@@ -55,4 +66,6 @@
     background: rgb(231, 231, 231) !important;
 }
 
-.point
+.point{
+    background: rgb(109, 109, 109) !important;
+}
